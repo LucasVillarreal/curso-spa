@@ -50,6 +50,7 @@ html {
 
 .character-item {
   width: max-content;
+  max-width: 250px;
   text-align: center;
   margin: 0 auto 15px auto;
   background-color: #abc8d2;
@@ -130,6 +131,29 @@ html {
 
 .characters-card--description .card-detail {
   color: #c4c3c3;
+}
+
+.pages-content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.pages-content h3 {
+  color: #abc8d2;
+  font-size: 25px;
+  padding: 10px 0px;
+}
+
+.pages-link {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pages-link a {
+  padding: 10px;
+  color: #abc8d2;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 @media (min-width: 750px) {
